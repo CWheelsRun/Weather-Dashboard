@@ -1,11 +1,3 @@
-main {
-  padding: 30px;
-}
-
-.box {
-    background-color: slategray;
-}
-
 .hero {
   background-image: radial-gradient(#ff0033 20%, yellow 70%, green 90%);;
 }
@@ -20,7 +12,36 @@ main {
   color: #fff;
 }
 
+form {
+    margin-bottom: 50px;
+}
+
 #submit {
   width: 100%;
-  margin-bottom: 20px;
+}
+
+main {
+    padding: 30px;
+}  
+
+.box {
+    background-color: slategray;
+}
+
+#weather {
+    margin: auto;
+    border: 2px solid black;
+    background-color: #f199aa80;
+}
+
+.current-city-data {
+    min-height: 300px;
+}
+
+#forecast {
+    margin-top: 20px;
+}
+
+tr {
+    margin: 5px;
 }
