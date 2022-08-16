@@ -1,0 +1,26 @@
+main {
+  padding-top: 20px;
+}
+
+.box {
+    background-color: slategray;
+}
+
+.hero {
+  background-image: radial-gradient(red 30%, yellow 60%, green 90%);;
+}
+
+.hero-body {
+    flex: 1 0 1rem;
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.title {
+  color: #fff;
+}
+
+#submit {
+  width: 100%;
+  margin-bottom: 20px;
+}

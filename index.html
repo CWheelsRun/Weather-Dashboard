@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+    <div class="hero-body">
+        <h1 class="title">Weather Dashboard</h1>
+    </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-quarter content">
+                    <form>
+                        <input id="city-input" class="input is-danger" placeholder="Enter city"/>
+                        <button id="submit" class="button is-danger" type="submit">Get the Forecast</button>
+                    </form>
+                    <div class="box">
+                        <table id="cityList" class="table is-bordered">
+                        <tr></tr>
+                        </table>
+                        <button id="clear" class="button is-danger">CLEAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
