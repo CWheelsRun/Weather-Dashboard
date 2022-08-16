@@ -9,8 +9,8 @@
 }
 
 .title {
-  color: #fff;
-  font-size: 3rem;
+    color: #fff;
+    font-size: 3rem;
 }
 
 form {
@@ -18,7 +18,7 @@ form {
 }
 
 #submit {
-  width: 100%;
+    width: 100%;
 }
 
 main {
@@ -28,6 +28,10 @@ main {
 .box {
     background-color: slategray;
     border: 2px solid black;
+}
+
+tr {
+    border: 5px solid #222222
 }
 
 #weather {
