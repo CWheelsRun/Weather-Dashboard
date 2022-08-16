@@ -7,7 +7,7 @@ main {
 }
 
 .hero {
-  background-image: radial-gradient(red 30%, yellow 60%, green 90%);;
+  background-image: radial-gradient(#ff0033 20%, yellow 70%, green 90%);;
 }
 
 .hero-body {
