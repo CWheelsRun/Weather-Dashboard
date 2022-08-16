@@ -27,22 +27,35 @@ main {
 
 .box {
     background-color: slategray;
+    border: 2px solid black;
 }
 
 #weather {
     margin: auto;
     border: 2px solid black;
     background-color: #485fc736;
+    min-height: 300px;
+    max-width: 1200px;
 }
 
-.current-city-data {
-    min-height: 300px;
+#icon {
+    margin-left: 50px;
+}
+
+#uv-index {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #forecast {
     margin-top: 20px;
 }
 
-tr {
-    margin: 5px;
+.card {
+    margin: 2px;
+    border: 2px solid black;
+    background-color: #485fc736;
+    text-align: center;
 }
