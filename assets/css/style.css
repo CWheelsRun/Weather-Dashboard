@@ -1,5 +1,5 @@
 .hero {
-  background-image: radial-gradient(#ff0033 20%, yellow 70%, green 90%);;
+    background-image: linear-gradient(navy, black);
 }
 
 .hero-body {
@@ -10,6 +10,7 @@
 
 .title {
   color: #fff;
+  font-size: 3rem;
 }
 
 form {
@@ -31,7 +32,7 @@ main {
 #weather {
     margin: auto;
     border: 2px solid black;
-    background-color: #f199aa80;
+    background-color: #485fc736;
 }
 
 .current-city-data {
